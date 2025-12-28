@@ -215,7 +215,6 @@ html = """
         table.dataTable thead th { font-weight: bold; }
         th.waktu, td.waktu { width: 150px; min-width: 100px; max-width: 180px; white-space: nowrap; text-align: left; }
         th.profit, td.profit { width: 150px; min-width: 80px; max-width: 160px; white-space: nowrap; text-align: left; }
-        th.profit1, td.profit1 { width: 120px; min-width: 80px; max-width: 130px; white-space: nowrap; text-align: left; }
         .dark-mode { background: #181a1b !important; color: #e0e0e0 !important; }
         .dark-mode #jam { color: #ffb300 !important; }
         .dark-mode table.dataTable { background: #23272b !important; color: #e0e0e0 !important; }
@@ -255,8 +254,8 @@ html = """
             <tr>
                 <th class="waktu">Waktu</th>
                 <th>Data Transaksi</th>
-                <th class="profit">Est. cuan 20 JT</th>
-                <th class="profit">Est. cuan 30 JT</th>
+                <th class="profit">Est. cuan 20 JT > gr</th>
+                <th class="profit">Est. cuan 30 JT > gr</th>
             </tr>
         </thead>
         <tbody></tbody>
