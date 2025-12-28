@@ -214,7 +214,7 @@ html = """
         body { font-family: Arial; margin: 40px; background: #fff; color: #222; transition: background 0.3s, color 0.3s; }
         table.dataTable thead th { font-weight: bold; }
         th.waktu, td.waktu { width: 150px; min-width: 100px; max-width: 180px; white-space: nowrap; text-align: left; }
-        th.profit, td.profit { width: 150px; min-width: 80px; max-width: 160px; white-space: nowrap; text-align: left; }
+        th.profit, td.profit { width: 157px; min-width: 80px; max-width: 160px; white-space: nowrap; text-align: left; }
         .dark-mode { background: #181a1b !important; color: #e0e0e0 !important; }
         .dark-mode #jam { color: #ffb300 !important; }
         .dark-mode table.dataTable { background: #23272b !important; color: #e0e0e0 !important; }
