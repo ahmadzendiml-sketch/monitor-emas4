@@ -485,11 +485,11 @@ async def websocket_endpoint(websocket: WebSocket):
             val = int(gram * h["selling_rate"] - 19315000)
             gram_str = f"{gram:,.4f}".replace(",", ".")
             if val > 0:
-                return f"+{format_rupiah(val)}🟢|{gram_str}gr"
+                return f"+{format_rupiah(val)}🟢•{gram_str}gr"
             elif val < 0:
-                return f"-{format_rupiah(abs(val))}🔴|{gram_str}gr"
+                return f"-{format_rupiah(abs(val))}🔴•{gram_str}gr"
             else:
-                return f"0➖|{gram_str}gr"
+                return f"0➖•{gram_str}gr"
         except:
             return "-"
     
@@ -499,11 +499,11 @@ async def websocket_endpoint(websocket: WebSocket):
             val = int(gram * h["selling_rate"] - 28980000)
             gram_str = f"{gram:,.4f}".replace(",", ".")
             if val > 0:
-                return f"+{format_rupiah(val)}🟢|{gram_str}gr"
+                return f"+{format_rupiah(val)}🟢°{gram_str}gr"
             elif val < 0:
-                return f"-{format_rupiah(abs(val))}🔴|{gram_str}gr"
+                return f"-{format_rupiah(abs(val))}🔴°{gram_str}gr"
             else:
-                return f"0➖|{gram_str}gr"
+                return f"0➖°{gram_str}gr"
         except:
             return "-"
 
